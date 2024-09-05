@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #000000;
+}
+
+header {
+    background-color: #363636;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    margin-top: 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group button {
+    background-color: #2b2b2b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form-group button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+}
+.hero-section {
+    position: relative;
+    color: #000000;
+    text-align: left;
+}
+
+.hero-section p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.hero-section a {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.cta-section {
+    background-color: #17a2b8;
+    font-size: 24px;
+    font-weight: bold;
+}
+.image-overlay {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.image-overlay img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.image-overlay a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.text-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 90%;
+}
